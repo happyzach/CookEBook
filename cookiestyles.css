@@ -1,0 +1,71 @@
+body {
+	background-color: #e7ffea;
+}
+h1 {
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+#featureSide h1 {
+	background-color: grey;
+	text-align:center;
+}
+#featureSide h1:hover{background-color: black}
+a {
+	text-decoration: none;
+}
+body {
+	background-color: #e7ffea;
+}
+#titlePic {
+	background-color: black;
+	color:white;
+}
+
+#menuSide {
+	width: 20%;
+	float: left;
+}
+#menuSide li {
+	list-style: none;
+	cursor: pointer;
+}
+
+#featureSide {
+	float:right;
+	width:78%;
+	padding:10px;
+}
+#adSpace {
+	margin: 20px;
+	padding:10px;
+	border: 1px dashed black;
+}
+#titlePic:hover{background-color:grey;}
+#amount {
+	float:right;
+	position:relative;
+}
+#foodtype {
+	float:left;
+	position:static;
+}
+#titlePic img {
+	width:30px;
+	height: 30px;
+}
+#menuDrop {
+	display: none;
+}
+#menuDrop1{
+	display: none;
+}
+header img{
+	width: 100%;
+}
+.sticky {
+position: fixed;
+width: 100%;
+left: 0;
+top: -10px;
+}
